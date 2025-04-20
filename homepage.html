@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .background-container {
+      width: 3508px;
+      height: 2480px;
+      background-image: url(images/background.png);
+      background-size: cover;
+      position: relative; 
+    }
+
+    .hover-image {
+      position: absolute;
+      transition: all 0.3s ease;
+      --scale: 0.8; 
+      transform: scale(var(--scale)); 
+      transform-origin: center;
+    }
+
+    .hover-image:hover {
+      transform: scale(calc(var(--scale) * 1.2)); 
+      z-index: 1;
+    }
+
+    .hover-image1 { top: 20%; left: -1%; }
+    .hover-image2 { top: 57%; left: 44%; }  
+    .hover-image3 { top: 71.2%; left: 6.2%; --scale: 0.66; }
+	.hover-image4 { top: 17.2%; left: 37%; --scale: 0.85; }
+	.hover-image5 { top: 36%; left: 27%; --scale: 0.85; }
+	.hover-image6 { top: 11.8%; left: 64.4%; --scale: 0.9; }
+	.hover-image7 { top: 74.5%; left: 32.3%; --scale: 0.82; }
+	.hover-image8 { top: 38.5%; left: 35%; --scale: 0.65; }
+	.hover-image9 { top: 53%; left: 18%; --scale: 1.1; }
+	.hover-image10 { top: 31%; left: 71%; --scale: 1.2; }
+  </style>
+</head>
+<body>
+  <div class="background-container">
+    <a href="pages/page1/index.html" class="hover-image hover-image1">
+      <img src="images/1.png" alt="南京师范大学随园校区">
+    </a>
+    <a href="pages/page2/index.html" class="hover-image hover-image2">
+      <img src="images/2.png" alt="大行宫地铁站">
+    </a>
+    <a href="pages/page3/index.html" class="hover-image hover-image3">
+      <img src="images/3.png" alt="云锦博物馆">
+    </a>
+	<a href="pages/page4/index.html" class="hover-image hover-image4">
+      <img src="images/4.png" alt="世界文学客厅">
+    </a>
+	<a href="pages/page5/index.html" class="hover-image hover-image5">
+      <img src="images/5.png" alt="先锋书店">
+    </a>
+	<a href="pages/page6/index.html" class="hover-image hover-image6">
+      <img src="images/6.png" alt="钟山文学馆">
+    </a>
+	<a href="pages/page7/index.html" class="hover-image hover-image7">
+      <img src="images/7.png" alt="夫子庙">
+    </a>
+	<a href="pages/page8/index.html" class="hover-image hover-image8">
+      <img src="images/8.png" alt="南京图书馆">
+    </a>
+	<a href="pages/page9/index.html" class="hover-image hover-image9">
+      <img src="images/9.png" alt="江宁织造博物馆">
+    </a>
+	<a href="pages/page10/index.html" class="hover-image hover-image10">
+      <img src="images/10.png" alt="红楼艺文苑">
+    </a>
+  </div>
+</body>
+</html>
