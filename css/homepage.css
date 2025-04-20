@@ -1,0 +1,7 @@
+@charset "utf-8";
+body {
+    width: 3508px;
+    height: 2480px;
+    background-size: cover;
+    background-image: url(../images/background.png);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>红楼艺文苑</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="ds_index.css" />
+  <script defer src="index.js"></script>
+</head>
+<body>
+  <div class="left_container">
+    <div class="sidebar intro btn active" onclick="showContent('intro')">
+      <h3>Introduction</h3>
+    </div>
+    <div class="sidebar video btn" onclick="showContent('video')">
+      <h3>Video</h3>
+    </div>
+   <a href="../../homepage.html" class="sidebar return btn">
+     <h3>Return</h3>
+   </a>
+  </div>
+
+  <div class="right_container">
+    <div class="right_present_intro content active">
+      <div class="card">
+        <h1>红楼艺文苑</h1>
+<p>introductionhere</p>
+      </div>
+    </div>
+
+    <div class="right_present_video content">
+      <video id="introVideo" controls autoplay muted>
+        <source src="..\..\videos\xx.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</body>
+</html>
